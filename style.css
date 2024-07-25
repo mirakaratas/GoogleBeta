@@ -1,0 +1,100 @@
+.resim {
+    margin-top: 150px;
+    margin-left: 550px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    
+}
+.text {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+
+
+}
+.searchbar {
+    max-width: 400px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #040404;
+    margin-top: -15px;
+
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+.btn {
+    text-align: center; /* Yazıyı merkezle */
+    display: inline-block; /* Düğmeyi blok olarak göster */
+    cursor: pointer; /* İmleci el işareti yap */
+    margin: 5px;
+
+  }
+
+  
+  .contain{
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  
+  .col-1{
+    background-color: aqua;
+    width: 475px;
+    height: 90px;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  }
+  .col-2{
+    background-color: rgb(56, 194, 194);
+    width: 250px;
+    height: 90px;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    
+
+  }
+  a{
+    margin-top: 0;
+  }
+  .col-3{
+    background-color: rgb(30, 147, 147);
+    width:475px;
+    height: 90px;
+    margin: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+  }
+  .wrap{
+    max-width: 140px;
+    margin: 0 auto;
+    text-wrap: balance;
+  }
+  .search{
+   max-width:200px;
+   margin:0 auto;
+   height: 20px;
+   background-color: #ffffff;
+   text-align: left;
+  }
+  p{
+    text-align: center;
+  }
